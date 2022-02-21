@@ -3,7 +3,7 @@ import SingleList from './singleList';
 
 interface IListsProps {}
 
-const Lists: React.FunctionComponent<IListsProps> = (props) => {
+const Lists: React.FunctionComponent<IListsProps> = () => {
   const lists: string[] = ['Farhan', 'Ahmed', 'Nahid'];
   const handleAlert = (text: string) => alert(text);
 
